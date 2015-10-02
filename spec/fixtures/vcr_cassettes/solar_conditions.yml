@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.hamqsl.com/solarxml.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 02 Oct 2015 03:45:37 GMT
+      Server:
+      - Apache
+      Vary:
+      - Accept-Encoding
+      Content-Length:
+      - '630'
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      string: "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<solar>\n\t<solardata>\n\t\t<source
+        url=\"http://www.hamqsl.com/solar.html\">N0NBH</source>\n\t\t<updated> 02
+        Oct 2015 0345 GMT</updated>\n\t\t<solarflux>114</solarflux>\n\t\t<aindex>
+        11</aindex>\n\t\t<kindex> 3</kindex>\n\t\t<kindexnt>No Report</kindexnt>\n\t\t<xray>
+        C1.1   </xray>\n\t\t<sunspots>73</sunspots>\n\t\t<heliumline>135.8</heliumline>\n\t\t<protonflux>9.80e-02</protonflux>\n\t\t<electonflux>1.33e-01</electonflux>\n\t\t<aurora>
+        3</aurora>\n\t\t<normalization>1.99</normalization>\n\t\t<latdegree>65.6</latdegree>\n\t\t<solarwind>366.5</solarwind>\n\t\t<magneticfield>
+        -4.2</magneticfield>\n\t\t<calculatedconditions>\n\t\t\t<band name=\"80m-40m\"
+        time=\"day\">Poor</band>\n\t\t\t<band name=\"30m-20m\" time=\"day\">Good</band>\n\t\t\t<band
+        name=\"17m-15m\" time=\"day\">Fair</band>\n\t\t\t<band name=\"12m-10m\" time=\"day\">Poor</band>\n\t\t\t<band
+        name=\"80m-40m\" time=\"night\">Fair</band>\n\t\t\t<band name=\"30m-20m\"
+        time=\"night\">Good</band>\n\t\t\t<band name=\"17m-15m\" time=\"night\">Fair</band>\n\t\t\t<band
+        name=\"12m-10m\" time=\"night\">Poor</band>\n\t\t</calculatedconditions>\n\t\t<calculatedvhfconditions>\n\t\t\t<phenomenon
+        name=\"vhf-aurora\" location=\"northern_hemi\">Band Closed</phenomenon>\n\t\t\t<phenomenon
+        name=\"E-Skip\" location=\"europe\">Band Closed</phenomenon>\n\t\t\t<phenomenon
+        name=\"E-Skip\" location=\"north_america\">Band Closed</phenomenon>\n\t\t\t<phenomenon
+        name=\"E-Skip\" location=\"europe_6m\">Band Closed</phenomenon>\n\t\t\t<phenomenon
+        name=\"E-Skip\" location=\"europe_4m\">Band Closed</phenomenon>\n\t\t</calculatedvhfconditions>\n\t\t<geomagfield>UNSETTLD</geomagfield>\n\t\t<signalnoise>S2-S3</signalnoise>\n\t\t<fof2>
+        4.5</fof2>\n\t\t<muffactor> 3.17</muffactor>\n\t\t<muf>14.27</muf>\n\t</solardata>\n</solar>"
+    http_version: 
+  recorded_at: Fri, 02 Oct 2015 03:45:38 GMT
+recorded_with: VCR 2.9.3
