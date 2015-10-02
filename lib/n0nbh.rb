@@ -9,7 +9,7 @@ class N0nbh
   end
 
   def self.[](val)
-    xml.at_css(val.to_s).inner_html
+    xml.at_css(val.to_s).inner_html.strip
   end
 
   def self.xml

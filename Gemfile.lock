@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     n0nbh (0.0.0)
+      nokogiri
 
 GEM
   remote: http://rubygems.org/
