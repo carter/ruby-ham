@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = 'N0NBH'
-  gem.summary       = 'Access to Ham Radio Conditions"
+  gem.summary       = 'Access to Ham Radio Conditions'
   gem.description   = gem.summary
   gem.authors       = ['Carter Parks']
   gem.email         = ['carter@carterparks.com']
