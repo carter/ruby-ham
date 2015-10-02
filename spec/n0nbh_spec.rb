@@ -1,4 +1,4 @@
-require './n0nbh'
+require './lib/n0nbh'
 require 'vcr'
 
 RSpec.configure do |c|
