@@ -12,4 +12,6 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split("\n").reject { |name| name.include?('examples') }
   gem.test_files    = `git ls-files -- {spec}/*`.split("\n")
   gem.license       = 'MIT'
+
+  gem.add_dependency "nokogiri"
 end
