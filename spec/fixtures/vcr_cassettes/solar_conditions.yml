@@ -32,7 +32,7 @@ http_interactions:
       encoding: UTF-8
       string: "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<solar>\n\t<solardata>\n\t\t<source
         url=\"http://www.hamqsl.com/solar.html\">N0NBH</source>\n\t\t<updated> 02
-        Oct 2015 0345 GMT</updated>\n\t\t<solarflux>114</solarflux>\n\t\t<aindex>
+        Oct 2015 0245 GMT</updated>\n\t\t<solarflux>114</solarflux>\n\t\t<aindex>
         11</aindex>\n\t\t<kindex> 3</kindex>\n\t\t<kindexnt>No Report</kindexnt>\n\t\t<xray>
         C1.1   </xray>\n\t\t<sunspots>73</sunspots>\n\t\t<heliumline>135.8</heliumline>\n\t\t<protonflux>9.80e-02</protonflux>\n\t\t<electonflux>1.33e-01</electonflux>\n\t\t<aurora>
         3</aurora>\n\t\t<normalization>1.99</normalization>\n\t\t<latdegree>65.6</latdegree>\n\t\t<solarwind>366.5</solarwind>\n\t\t<magneticfield>
