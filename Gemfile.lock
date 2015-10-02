@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    n0nbh (0.0.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -73,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   guard-bundler
   guard-rspec
+  n0nbh!
   nokogiri
   rspec
   vcr
