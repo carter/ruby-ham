@@ -1,0 +1,393 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.aprs.fi/api/get?apikey=88918.o95YwnfbiYjR15F&format=json&name=N3BBQ-9&what=loc
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.8.0
+      Date:
+      - Thu, 16 Jun 2016 22:52:30 GMT
+      Content-Type:
+      - application/json;charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=10
+      Last-Modified:
+      - Thu, 16 Jun 2016 22:52:30 GMT
+      Cache-Control:
+      - no-cache
+    body:
+      encoding: ASCII-8BIT
+      string: '{"command":"get","result":"ok","what":"loc","found":1,"entries":[{"class":"a","name":"N3BBQ-9","type":"l","time":"1466117509","lasttime":"1466117509","lat":"35.88417","lng":"-106.16333","altitude":1724,"course":235,"speed":87.044,"symbol":"\/k","srccall":"N3BBQ-9","dstcall":"SUUSPU","mice_msg":"111","path":"TESQUE*,WIDE2-1,qAR,N3XKB-1"}]}'
+    http_version: 
+  recorded_at: Thu, 16 Jun 2016 22:52:30 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?language=en&latlng=35.88417,-106.16333&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 16 Jun 2016 22:52:30 GMT
+      Expires:
+      - Fri, 17 Jun 2016 22:52:30 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - "*"
+      Server:
+      - mafe
+      Content-Length:
+      - '1059'
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+           "results" : [
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "New Mexico 502",
+                       "short_name" : "NM-502",
+                       "types" : [ "route" ]
+                    },
+                    {
+                       "long_name" : "Santa Fe",
+                       "short_name" : "Santa Fe",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "Santa Fe County",
+                       "short_name" : "Santa Fe County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "New Mexico",
+                       "short_name" : "NM",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    },
+                    {
+                       "long_name" : "87506",
+                       "short_name" : "87506",
+                       "types" : [ "postal_code" ]
+                    }
+                 ],
+                 "formatted_address" : "NM-502, Santa Fe, NM 87506, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 35.8850025,
+                          "lng" : -106.160432
+                       },
+                       "southwest" : {
+                          "lat" : 35.8838917,
+                          "lng" : -106.1636261
+                       }
+                    },
+                    "location" : {
+                       "lat" : 35.884763,
+                       "lng" : -106.1621962
+                    },
+                    "location_type" : "GEOMETRIC_CENTER",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 35.8857960802915,
+                          "lng" : -106.160432
+                       },
+                       "southwest" : {
+                          "lat" : 35.8830981197085,
+                          "lng" : -106.1636261
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJJ0Mm7nwVGIcRSFDTqXB_OtE",
+                 "types" : [ "route" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "87506",
+                       "short_name" : "87506",
+                       "types" : [ "postal_code" ]
+                    },
+                    {
+                       "long_name" : "Santa Fe",
+                       "short_name" : "Santa Fe",
+                       "types" : [ "locality", "political" ]
+                    },
+                    {
+                       "long_name" : "New Mexico",
+                       "short_name" : "NM",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Santa Fe, NM 87506, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 35.98785,
+                          "lng" : -105.719263
+                       },
+                       "southwest" : {
+                          "lat" : 35.4162299,
+                          "lng" : -106.231925
+                       }
+                    },
+                    "location" : {
+                       "lat" : 35.8890389,
+                       "lng" : -106.0657318
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 35.98785,
+                          "lng" : -105.719263
+                       },
+                       "southwest" : {
+                          "lat" : 35.6273968,
+                          "lng" : -106.231925
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJdX3JGUtGGIcRn0xW2wzucv4",
+                 "postcode_localities" : [ "Jaconita", "Nambe", "San Ildefonso Pueblo", "Santa Fe" ],
+                 "types" : [ "postal_code" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Santa Fe",
+                       "short_name" : "Santa Fe",
+                       "types" : [ "political" ]
+                    },
+                    {
+                       "long_name" : "Santa Fe County",
+                       "short_name" : "Santa Fe County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "New Mexico",
+                       "short_name" : "NM",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Santa Fe, NM, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 36.0023559,
+                          "lng" : -105.7144751
+                       },
+                       "southwest" : {
+                          "lat" : 35.040047,
+                          "lng" : -106.249159
+                       }
+                    },
+                    "location" : {
+                       "lat" : 35.3653705,
+                       "lng" : -105.9699878
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 36.0023559,
+                          "lng" : -105.7144751
+                       },
+                       "southwest" : {
+                          "lat" : 35.040047,
+                          "lng" : -106.249159
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJDx4MKo_3GIcRu631llCUCJI",
+                 "types" : [ "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "Santa Fe County",
+                       "short_name" : "Santa Fe County",
+                       "types" : [ "administrative_area_level_2", "political" ]
+                    },
+                    {
+                       "long_name" : "New Mexico",
+                       "short_name" : "NM",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "Santa Fe County, NM, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 36.0023559,
+                          "lng" : -105.7144749
+                       },
+                       "southwest" : {
+                          "lat" : 35.040015,
+                          "lng" : -106.2492189
+                       }
+                    },
+                    "location" : {
+                       "lat" : 35.3653705,
+                       "lng" : -105.9699878
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 36.0023559,
+                          "lng" : -105.7144749
+                       },
+                       "southwest" : {
+                          "lat" : 35.040015,
+                          "lng" : -106.2492189
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJLxb9lBZDGIcR1ads3XuFnHU",
+                 "types" : [ "administrative_area_level_2", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "New Mexico",
+                       "short_name" : "NM",
+                       "types" : [ "administrative_area_level_1", "political" ]
+                    },
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "New Mexico, USA",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 37.0002931,
+                          "lng" : -103.001964
+                       },
+                       "southwest" : {
+                          "lat" : 31.332172,
+                          "lng" : -109.050173
+                       }
+                    },
+                    "location" : {
+                       "lat" : 34.5199402,
+                       "lng" : -105.8700901
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 37.0002931,
+                          "lng" : -103.001964
+                       },
+                       "southwest" : {
+                          "lat" : 31.332172,
+                          "lng" : -109.050173
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJqVKY50NQGIcRup41Yxpuv0Y",
+                 "types" : [ "administrative_area_level_1", "political" ]
+              },
+              {
+                 "address_components" : [
+                    {
+                       "long_name" : "United States",
+                       "short_name" : "US",
+                       "types" : [ "country", "political" ]
+                    }
+                 ],
+                 "formatted_address" : "United States",
+                 "geometry" : {
+                    "bounds" : {
+                       "northeast" : {
+                          "lat" : 71.3867745,
+                          "lng" : -66.9502861
+                       },
+                       "southwest" : {
+                          "lat" : 18.910677,
+                          "lng" : 172.4458955
+                       }
+                    },
+                    "location" : {
+                       "lat" : 37.09024,
+                       "lng" : -95.712891
+                    },
+                    "location_type" : "APPROXIMATE",
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 49.38,
+                          "lng" : -66.94
+                       },
+                       "southwest" : {
+                          "lat" : 25.82,
+                          "lng" : -124.39
+                       }
+                    }
+                 },
+                 "place_id" : "ChIJCzYy5IS16lQRQrfeQ5K5Oxw",
+                 "types" : [ "country", "political" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Thu, 16 Jun 2016 22:52:30 GMT
+recorded_with: VCR 2.9.3

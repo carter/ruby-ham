@@ -1,5 +1,4 @@
 require './lib/n0nbh'
-require 'vcr'
 
 RSpec.describe N0nbh do
   use_vcr_cassette "solar_conditions", :allow_playback_repeats => true
