@@ -14,4 +14,5 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_dependency "nokogiri"
+  gem.add_dependency "geocoder"
 end
