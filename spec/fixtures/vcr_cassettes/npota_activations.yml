@@ -1,0 +1,482 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://npota.arrl.org/resources/api/get-10-day-activations-api.php
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 16 Jun 2016 21:48:47 GMT
+      Server:
+      - Apache/2.4.6 (CentOS) OpenSSL/1.0.1e-fips
+      Cache-Control:
+      - max-age=0
+      Expires:
+      - Thu, 16 Jun 2016 21:48:47 GMT
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+    body:
+      encoding: UTF-8
+      string: '[{"RegisteredActivationId":"2520","StartDate":"2016-05-21 19:00:00","EndDate":"2016-06-21
+        01:00:00","ActivationCallSign":"WB6VYH","ARRLCode":"RC18","Name":"Whiskeytown
+        Unit","Type":"National Recreation Area","Comments":"Due to rain and lightning
+        this will be moved to the 4th of June\r\n\r\nModes will be JT65HF, RTTY, PSK31,
+        CW and SSB if we have time. \r\n\r\nI can also do some DXCC, WAS, VUCC applications
+        during this time. You must contact me before hand. I''m good in the book...  ","URL":"http:\/\/www.nps.gov\/whis\/index.htm"},{"RegisteredActivationId":"3237","StartDate":"2016-06-12
+        00:00:00","EndDate":"2016-06-17 00:00:00","ActivationCallSign":"w4sig","ARRLCode":"MN72","Name":"Virgin
+        Islands Coral Reef","Type":"National Monument","Comments":"I will be in St.
+        John USVI for 5 days and will attempt to activate this monument while \/MM.
+        ","URL":"http:\/\/www.nps.gov\/vicr\/index.htm"},{"RegisteredActivationId":"3235","StartDate":"2016-06-12
+        00:00:00","EndDate":"2016-06-17 00:00:00","ActivationCallSign":"w4sig","ARRLCode":"NP53","Name":"Virgin
+        Islands","Type":"National Park","Comments":"I will be in St. John USVI for
+        5 days and will activate this national park several times as KP2\/W4SIG on
+        both SSB and CW.","URL":"http:\/\/www.nps.gov\/viis\/index.htm"},{"RegisteredActivationId":"3206","StartDate":"2016-06-13
+        20:00:00","EndDate":"2016-06-18 12:00:00","ActivationCallSign":"N0ZB","ARRLCode":"NP22","Name":"Grand
+        Canyon","Type":"National Park","Comments":"From the North Rim - casual operating","URL":"http:\/\/www.nps.gov\/grca\/index.htm"},{"RegisteredActivationId":"914","StartDate":"2016-06-14
+        14:00:00","EndDate":"2016-06-25 19:00:00","ActivationCallSign":"N9NQA\/3","ARRLCode":"SS01","Name":"Assateague
+        Island","Type":"National Seashore","Comments":"N9NQA\/3 on air 2016-06-14
+        trough 2016-06-25 40 and 20 meters phone QRP, with battery. Plan on  being
+        on air each day between 14:00Z to 19:00Z,depending on weather conditions.
+        73 Dave N9NQA","URL":"http:\/\/www.nps.gov\/asis\/index.htm"},{"RegisteredActivationId":"3195","StartDate":"2016-06-14
+        20:00:00","EndDate":"2016-06-16 03:00:00","ActivationCallSign":"N6YEU","ARRLCode":"NP38","Name":"Lassen
+        Volcanic","Type":"National Park","Comments":"Times are approximate. I will
+        be on as soon as I can for as long as I can. Family arrives Thursday so free
+        to play radio for a couple days. I will operate 20-30-40 mostly.14260-14270
+        ssb 14055 + or - cw 10117 cw and 7240-7260 ssb and 7045 or so cw. Park website
+        indicates lots of snow still so hope I","URL":"http:\/\/www.nps.gov\/lavo\/index.htm"},{"RegisteredActivationId":"3300","StartDate":"2016-06-15
+        12:00:00","EndDate":"2016-06-16 12:00:00","ActivationCallSign":"k5qxj","ARRLCode":"PV04","Name":"Big
+        Thicket","Type":"National Preserve","Comments":"","URL":"http:\/\/www.nps.gov\/bith\/index.htm"},{"RegisteredActivationId":"3349","StartDate":"2016-06-15
+        14:00:00","EndDate":"2016-06-17 01:00:00","ActivationCallSign":"NC8N","ARRLCode":"NS44","Name":"Lincoln
+        Home","Type":"National Historic Site","Comments":"Starting at Ns44 and on
+        to Nm12 and tehn NS73 and ending at BF04 time permititng throughout the day
+        Wednesday.  LOTW will be after 06232016","URL":"http:\/\/www.nps.gov\/liho\/index.htm"},{"RegisteredActivationId":"3117","StartDate":"2016-06-15
+        16:00:00","EndDate":"2016-06-16 18:00:00","ActivationCallSign":"K0HS","ARRLCode":"NP55","Name":"Wind
+        Cave","Type":"National Park","Comments":"Operated by the Hot Springs Amateur
+        Radio Club and encouraged by the Park Service as an official park activity,
+        advertised with banners at headqtrs and on roads.  Operation for parts of
+        the 26 hours on most HF bands on SSB and CW.","URL":"http:\/\/www.nps.gov\/wica\/index.htm"},{"RegisteredActivationId":"2984","StartDate":"2016-06-15
+        22:00:00","EndDate":"2016-06-19 04:00:00","ActivationCallSign":"KF6ILA\/M","ARRLCode":"RC10","Name":"Glen
+        Canyon","Type":"National Recreation Area","Comments":"Lone Rock Campground,
+        on edge of Lake Powell. 20 and 40 Meters SSB, 100 watts using Inverted \"V\"
+        antenna.  Solar Power w\/ Batteries (see QRZ.com web page for pictures).  No
+        internet access so please spot.  Park-to-Park QSOs welcome!  YL: KF6JVF assisting.","URL":"http:\/\/www.nps.gov\/glca\/index.htm"},{"RegisteredActivationId":"3253","StartDate":"2016-06-15
+        22:00:00","EndDate":"2016-06-16 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"RC14","Name":"Lake
+        Meredith","Type":"National Recreation Area","Comments":"Will be doing SSB
+        and CW.  Times are approximately when I will be there and possibly on air.","URL":"http:\/\/www.nps.gov\/lamr\/index.htm"},{"RegisteredActivationId":"3373","StartDate":"2016-06-16
+        00:00:00","EndDate":"2016-06-18 00:00:00","ActivationCallSign":"WA2BFW","ARRLCode":"NP21","Name":"Glacier
+        National Park","Type":"National Park","Comments":"On final leg of 3 park journey.
+        (Grand Teton, Yellowstone and now Glacier) will be on 20m ssb,  14.260 +\/-
+        20.  I havent had internet access until now so all logs will be uploaded when
+        I return home Sunday 6\/19. I will use wa2bfw for all confirmations.\r\nPlease
+        spot if you hear my 10 watts into a Bud","URL":"http:\/\/www.nps.gov\/glac\/index.htm"},{"RegisteredActivationId":"3177","StartDate":"2016-06-16
+        15:00:00","EndDate":"2016-06-17 01:00:00","ActivationCallSign":"WA0LJM","ARRLCode":"TR04","Name":"North
+        Country National Scenic Trail","Type":"National Scenic Trail","Comments":"This
+        section of trail is in Richland County, North Dakota located in the Sheyenne
+        National Grasslands.  Will operate most of the day of the 16th into the evening.  On
+        multiple bands as conditions allow.  May be on late on June 15th if I get
+        set up early.","URL":"http:\/\/www.nps.gov\/noco\/index.htm"},{"RegisteredActivationId":"3295","StartDate":"2016-06-16
+        16:00:00","EndDate":"2016-06-16 20:00:00","ActivationCallSign":"WA8YNE","ARRLCode":"HP20","Name":"Keweenaw","Type":"National
+        Historical Park","Comments":"5 watts.  20 m (possibly 40) SSB.  Please spot;
+        no internet.  Houghton, MI","URL":"http:\/\/www.nps.gov\/kewe\/index.htm"},{"RegisteredActivationId":"3356","StartDate":"2016-06-16
+        16:00:00","EndDate":"2016-06-16 22:00:00","ActivationCallSign":"KF0UR, WK8S","ARRLCode":"MN28","Name":"Florissant
+        Fossil Beds","Type":"National Monument","Comments":"Pete WK8S and I, Shel
+        KF0UR  will both be on.  \r\n\r\n- 20M CW near 14.055 or USB near 14.277\r\n-
+        Other bands based on condx.","URL":"http:\/\/www.nps.gov\/flfo\/index.htm"},{"RegisteredActivationId":"3325","StartDate":"2016-06-16
+        16:00:00","EndDate":"2016-06-16 17:00:00","ActivationCallSign":"AB4BJ","ARRLCode":"BF03","Name":"Cowpens","Type":"National
+        Battlefield","Comments":"Start time is very approximate depending on traffic,
+        etc. and may be earlier in the day.  This will be a one hour activation on
+        20 and 40 SSB.  This will be followed by our activation of MP06\/TR10, so
+        please look for AA4WJ and I there.  73","URL":"http:\/\/www.nps.gov\/cowp\/index.htm"},{"RegisteredActivationId":"3254","StartDate":"2016-06-16
+        17:00:00","EndDate":"2016-06-16 18:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"HP35","Name":"Pecos","Type":"National
+        Historical Park","Comments":"Will be doing SSB and CW.  Times are approximately
+        when I will be there and possibly on air.  This activation will be an hour
+        or two stop while on way to next campsite.","URL":"http:\/\/www.nps.gov\/peco\/index.htm"},{"RegisteredActivationId":"3326","StartDate":"2016-06-16
+        17:00:00","EndDate":"2016-06-16 18:00:00","ActivationCallSign":"AB4BJ","ARRLCode":"MP06","Name":"Kings
+        Mountain","Type":"National Military Park","Comments":"Start time is very approximate
+        depending on traffic, etc. and may be earlier in the day.  This will be a
+        one hour activation on 20 and 40 SSB.  This will be a two''fer with TR10 (Overmountain
+        Victory NHT)  73","URL":"http:\/\/www.nps.gov\/kimo\/index.htm"},{"RegisteredActivationId":"3358","StartDate":"2016-06-16
+        18:00:00","EndDate":"2016-06-19 05:00:00","ActivationCallSign":"K7CAR","ARRLCode":"MN16","Name":"Cedar
+        Breaks","Type":"National Monument","Comments":"  Camped out at 10,500 ft.
+        for the next 4-5 days.  I have up dipoles for 20-40-80, SSB.  Check my QRZ
+        page for updates and times.  Please spot me.  ","URL":"http:\/\/www.nps.gov\/cebr\/index.htm"},{"RegisteredActivationId":"3359","StartDate":"2016-06-16
+        18:00:00","EndDate":"2016-06-16 19:00:00","ActivationCallSign":"WB0USI","ARRLCode":"TR14","Name":"California
+        National Historic Trail","Type":"National Historic Trail","Comments":"ETA
+        +\/- 30 min. - Quick stop operating from the California National Historic
+        Trail Interpretive Center near Elko NV. 14.280 +\/- SSB possibly 14.059 +\/-
+        CW if time allows.","URL":"http:\/\/www.nps.gov\/cali\/index.htm"},{"RegisteredActivationId":"3365","StartDate":"2016-06-16
+        18:00:00","EndDate":"2016-06-16 20:00:00","ActivationCallSign":"KR6ZY","ARRLCode":"MN20","Name":"Colorado","Type":"National
+        Monument","Comments":"Sorry for the late notice. Another NPOTA site that''s
+        right off my route, so I''m activating it. I''ll be on 20m. Follow my journey
+        on Twitter, @SmittyHalibut, or email me: kr6zy@arrl.net","URL":"http:\/\/www.nps.gov\/colm\/index.htm"},{"RegisteredActivationId":"3228","StartDate":"2016-06-16
+        19:00:00","EndDate":"0000-00-00 00:00:00","ActivationCallSign":"KD7RCJ + NF7E","ARRLCode":"MN70","Name":"Tonto","Type":"National
+        Monument","Comments":"Bob Wertz NF7E and I Jack Lunsford KD7RCJ will be at
+        Tonto on 6-16&17, Motezumz Castle 6-18 and Tuzigoot 6-19.  Others will join
+        us on 6-18&19.  Please spot us.","URL":"http:\/\/www.nps.gov\/tont\/index.htm"},{"RegisteredActivationId":"3361","StartDate":"2016-06-16
+        20:00:00","EndDate":"2016-06-16 20:00:00","ActivationCallSign":"NF7E","ARRLCode":"MN70","Name":"Tonto","Type":"National
+        Monument","Comments":"","URL":"http:\/\/www.nps.gov\/tont\/index.htm"},{"RegisteredActivationId":"3360","StartDate":"2016-06-16
+        20:30:00","EndDate":"2016-06-16 21:30:00","ActivationCallSign":"KI9W\/4","ARRLCode":"AA09","Name":"Green
+        Springs National Historic Landmark District","Type":"Affiliated Area","Comments":"SSB
+        on 20m & 40m. Weather permitting. Times are approximate. Might also head to
+        NP51\/TR01 after.","URL":"http:\/\/www.nps.gov\/grsp\/index.htm"},{"RegisteredActivationId":"3255","StartDate":"2016-06-17
+        01:00:00","EndDate":"2016-06-17 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"MN06","Name":"Bandelier","Type":"National
+        Monument","Comments":"Will be doing SSB and CW.  Times are approximately when
+        I will be there and possibly on air.  Limited internet access, please spot.","URL":"http:\/\/www.nps.gov\/band\/index.htm"},{"RegisteredActivationId":"3168","StartDate":"2016-06-17
+        13:00:00","EndDate":"2016-06-17 16:00:00","ActivationCallSign":"KO3F","ARRLCode":"DZ01","Name":"Catoctin
+        Mountain Park","Type":"Other","Comments":"QRP 40m SSB & CW, 20m SSB, CW, PSK31
+        and JT65\/9. Will also monitor 146.52 for locals.","URL":"http:\/\/www.nps.gov\/cato\/index.htm"},{"RegisteredActivationId":"3352","StartDate":"2016-06-17
+        14:00:00","EndDate":"2016-06-17 21:30:00","ActivationCallSign":"KR0P","ARRLCode":"NS35","Name":"Herbert
+        Hoover","Type":"National Historic Site","Comments":"After considerable conversation
+        with the Head Ranger by KD0WVD we have been granted an official activation
+        of this sensitive site. 20MSSB, 40MSSB, 80MSSB perhaps 30MCW KD0WVD, N0TTE
+        and KR0P Hopefully we will be allowed to stay the entire day!","URL":"http:\/\/www.nps.gov\/heho\/index.htm"},{"RegisteredActivationId":"82","StartDate":"2016-06-17
+        15:00:00","EndDate":"2016-06-19 23:00:00","ActivationCallSign":"K0USA","ARRLCode":"MN46","Name":"Homestead
+        NM of America","Type":"National Monument","Comments":"Ak-Sar-Ben Amateur Radio  Club
+        Operating from the visitors center on 10\/15\/20\/40m SSB from about 10:00
+        am June 18 through 3:00PM June 19th Area hams are welcome to join us during
+        the Annual Homestead Days Celebration","URL":"http:\/\/www.nps.gov\/home\/index.htm"},{"RegisteredActivationId":"3366","StartDate":"2016-06-17
+        15:00:00","EndDate":"2016-06-17 21:00:00","ActivationCallSign":"W1A","ARRLCode":"NS66","Name":"Springfield
+        Armory","Type":"National Historic Site","Comments":"QSL this particular activity
+        via W1MG.\r\n\r\nQRV on 40 to 10 meters, and possibly 2 meters, if conditions
+        permit.","URL":"http:\/\/www.nps.gov\/spar\/index.htm"},{"RegisteredActivationId":"3200","StartDate":"2016-06-17
+        16:00:00","EndDate":"2016-06-17 18:00:00","ActivationCallSign":"KR6ZY","ARRLCode":"NP02","Name":"Arches","Type":"National
+        Park","Comments":"I''m driving through Utah on my way home and will work a
+        bit of NP02 on my way. Follow my journey on Twitter: @SmittyHalibut or email
+        me: kr6zy@arrl.net","URL":"http:\/\/www.nps.gov\/arch\/index.htm"},{"RegisteredActivationId":"3214","StartDate":"2016-06-17
+        16:00:00","EndDate":"2016-06-17 20:00:00","ActivationCallSign":"NJ3K","ARRLCode":"NM14","Name":"Johnstown
+        Flood","Type":"National Memorial","Comments":"QRP, CW only, Vertical antenna.
+        From the picnic area. Times are contingent on a travel time and weather. If
+        I have internet will try to spot myself.","URL":"http:\/\/www.nps.gov\/jofl\/index.htm"},{"RegisteredActivationId":"3335","StartDate":"2016-06-17
+        16:30:00","EndDate":"2016-06-17 18:30:00","ActivationCallSign":"WA9STI","ARRLCode":"NP31","Name":"Isle
+        Royale","Type":"National Park","Comments":"Will be taking ferry for a day
+        trip from Grand Portage, MN to Windigo area on west side of island.  Will
+        be operating QRP on 14.260 MHz +, 14.054 +, 7.230 +, and 7.054 +. Please spot
+        if heard. Will try APRS as WA9STI-7.","URL":"http:\/\/www.nps.gov\/isro\/index.htm"},{"RegisteredActivationId":"3372","StartDate":"2016-06-17
+        18:00:00","EndDate":"2016-06-17 20:00:00","ActivationCallSign":"KS6Z","ARRLCode":"MN51","Name":"Little
+        Bighorn Battlefield","Type":"National Monument","Comments":"I''ll be on 7214","URL":"http:\/\/www.nps.gov\/libi\/index.htm"},{"RegisteredActivationId":"3256","StartDate":"2016-06-17
+        18:30:00","EndDate":"2016-06-17 19:45:00","ActivationCallSign":"N3BBQ","ARRLCode":"MN05","Name":"Aztec
+        Ruins","Type":"National Monument","Comments":"Will be doing SSB and CW.  Times
+        are approximately when I will be there and possibly on air.  Limited internet
+        access, please spot.","URL":"http:\/\/www.nps.gov\/azru\/index.htm"},{"RegisteredActivationId":"3362","StartDate":"2016-06-17
+        20:00:00","EndDate":"2016-06-18 01:00:00","ActivationCallSign":"NF7E","ARRLCode":"MN52","Name":"Montezuma
+        Castle","Type":"National Monument","Comments":"","URL":"http:\/\/www.nps.gov\/moca\/index.htm"},{"RegisteredActivationId":"3296","StartDate":"2016-06-17
+        23:00:00","EndDate":"2016-06-18 23:59:00","ActivationCallSign":"WA8YNE","ARRLCode":"LK03","Name":"Pictured
+        Rocks","Type":"National Lakeshore","Comments":"Probably (TR04) also (twofer)  5
+        watts.  20 m (possibly 40) SSB.  Please spot; no internet.  near Munising,
+        MI","URL":"http:\/\/www.nps.gov\/piro\/index.htm"},{"RegisteredActivationId":"3257","StartDate":"2016-06-17
+        23:30:00","EndDate":"2016-06-18 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"NP40","Name":"Mesa
+        Verde","Type":"National Park","Comments":"Will be doing SSB and CW.  Times
+        are approximately when I will be there and possibly on air.  Limited internet
+        access, please spot.","URL":"http:\/\/www.nps.gov\/meve\/index.htm"},{"RegisteredActivationId":"883","StartDate":"2016-06-18
+        00:00:00","EndDate":"2016-08-01 00:00:00","ActivationCallSign":"W3GE","ARRLCode":"NP21","Name":"Glacier
+        National Park","Type":"National Park","Comments":"I am a campground host in
+        the Many Glacier campground.  We will be active from 6\/15-8\/1\r\n\r\nIf
+        you are in the park please stop in and visit.  I will be active mainly on
+        20 and 40 meter phone.\r\nI hope to make contact with you from Montana''s
+        Glacier National Park, the \"crown of the continent\"","URL":"http:\/\/www.nps.gov\/glac\/index.htm"},{"RegisteredActivationId":"2395","StartDate":"2016-06-18
+        13:00:00","EndDate":"2016-06-18 21:00:00","ActivationCallSign":"POTA*413","ARRLCode":"NS66","Name":"Springfield
+        Armory","Type":"National Historic Site","Comments":"By Special Invation From
+        The Springfield Armory Itself... POTA*413 under KB1VWQ will be returning SATURDAY
+        6\/18 to the Armory to host their special event, know as \"Armory Day\" through-out
+        the day during the historical sites operating hours... Other Radio Operators
+        TBA, as the event draws near.","URL":"http:\/\/www.nps.gov\/spar\/index.htm"},{"RegisteredActivationId":"3297","StartDate":"2016-06-18
+        14:00:00","EndDate":"2016-06-18 23:00:00","ActivationCallSign":"W5RDL","ARRLCode":"NP10","Name":"Carlsbad
+        Caverns","Type":"National Park","Comments":"I''m going to be at the park with
+        KG5ANO we will be working 40m 20m and 6m if the band opens up while we''re
+        there. We may work some digital as well.","URL":"http:\/\/www.nps.gov\/CAVE\/index.htm"},{"RegisteredActivationId":"2511","StartDate":"2016-06-18
+        15:00:00","EndDate":"2016-06-18 21:00:00","ActivationCallSign":"WR4CC\/W4ALH","ARRLCode":"TR01","Name":"Appalachian
+        National Scenic Trail","Type":"National Scenic Trail","Comments":"Carter County
+        Amateur Radio Assoc. (Elizabethton, TN) will be active on the Appalachian
+        Trail on Cross Mtn. in East Tennessee  ","URL":"http:\/\/www.nps.gov\/appa\/index.htm"},{"RegisteredActivationId":"3363","StartDate":"2016-06-18
+        15:00:00","EndDate":"2016-06-18 23:59:00","ActivationCallSign":"NF7E","ARRLCode":"MN52","Name":"Montezuma
+        Castle","Type":"National Monument","Comments":"","URL":"http:\/\/www.nps.gov\/moca\/index.htm"},{"RegisteredActivationId":"3199","StartDate":"2016-06-18
+        16:00:00","EndDate":"2016-06-18 18:00:00","ActivationCallSign":"KR6ZY","ARRLCode":"NP07","Name":"Bryce
+        Canyon","Type":"National Park","Comments":"I''m driving through Utah on my
+        way home and will work a bit of NP07 on my way. Follow my journey on Twitter:
+        @SmittyHalibut or email me: kr6zy@arrl.net","URL":"http:\/\/www.nps.gov\/brca\/index.htm"},{"RegisteredActivationId":"3229","StartDate":"2016-06-18
+        16:00:00","EndDate":"2016-06-18 23:30:00","ActivationCallSign":"KD7RCJ","ARRLCode":"MN52","Name":"Montezuma
+        Castle","Type":"National Monument","Comments":"Bob Wertz NF7E and I Jack Lunsford
+        KD7RCJ will be at Tonto on 6-16&17, Motezumz Castle 6-18 and Tuzigoot 6-19.  Others
+        will join us on 6-18&19.  Please spot us.","URL":"http:\/\/www.nps.gov\/moca\/index.htm"},{"RegisteredActivationId":"3234","StartDate":"2016-06-18
+        18:00:00","EndDate":"2016-06-18 23:59:00","ActivationCallSign":"W3H","ARRLCode":"DZ10","Name":"White
+        House","Type":"Other","Comments":"HacDC Amateur Radio Club will be activating
+        the White House National Park for Arrl Kids Day.  Visit www.qrz.com\/db\/w3h
+        for details and qsl information. 14270, 14042, 7270, 7042","URL":"http:\/\/www.nps.gov\/whho\/index.htm"},{"RegisteredActivationId":"3070","StartDate":"2016-06-18
+        18:00:00","EndDate":"2016-06-18 21:00:00","ActivationCallSign":"KY4L","ARRLCode":"HP50","Name":"Manhattan
+        Project","Type":"National Historical Park","Comments":"Joint Kids Day\/NPOTA
+        operation on 20-m phone from the Children''s Museum of Oak Ridge, a Manhattan
+        Project structure located within the boundary of the original Clinton Engineering
+        Works in Oak Ridge, Tennessee.","URL":"http:\/\/www.nps.gov\/mapr\/index.htm"},{"RegisteredActivationId":"3368","StartDate":"2016-06-18
+        18:00:00","EndDate":"2016-06-18 19:00:00","ActivationCallSign":"WD8RIF","ARRLCode":"HP15","Name":"Hopewell
+        Culture","Type":"National Historical Park","Comments":"time approximate due
+        to travel; 7.031 (+\/-) & maybe 14.061 (+\/-); see <a href=http:\/\/qrz.com\/db\/wd8rif>http:\/\/qrz.com\/db\/wd8rif<\/a>
+        for details\/updates","URL":"http:\/\/www.nps.gov\/hocu\/index.htm"},{"RegisteredActivationId":"3371","StartDate":"2016-06-18
+        19:00:00","EndDate":"2016-06-19 01:00:00","ActivationCallSign":"K6KPH","ARRLCode":"SS10","Name":"Point
+        Reyes","Type":"National Seashore","Comments":"Permanently located in beautiful
+        Pt Reyes National Seashore, K6KPH will be active using the lovingly restored
+        facilities of historic maritime radio coast station KPH. Call K6KPH: 3550,
+        7050, 14050, 18097.5, 21050. See: radiomarine.org.","URL":"http:\/\/www.nps.gov\/pore\/index.htm"},{"RegisteredActivationId":"3369","StartDate":"2016-06-18
+        20:00:00","EndDate":"2016-06-18 21:00:00","ActivationCallSign":"WD8RIF","ARRLCode":"MN18","Name":"Charles
+        Young Buffalo Soldiers","Type":"National Monument","Comments":"time approximate
+        due to travel; 7.031 (+\/-) & maybe 14.061 (+\/-); see <a href=http:\/\/qrz.com\/db\/wd8rif>http:\/\/qrz.com\/db\/wd8rif<\/a>
+        for details\/updates","URL":"http:\/\/www.nps.gov\/chyo\/index.htm"},{"RegisteredActivationId":"3201","StartDate":"2016-06-18
+        21:00:00","EndDate":"2016-06-18 23:00:00","ActivationCallSign":"KR6ZY","ARRLCode":"NP59","Name":"Zion","Type":"National
+        Park","Comments":"I''m driving through Utah on my way home and will work a
+        bit of NP59 on my way. Times are estimates and depend heavily on driving details.
+        Follow my journey on Twitter: @SmittyHalibut or email me: kr6zy@arrl.net","URL":"http:\/\/www.nps.gov\/zion\/index.htm"},{"RegisteredActivationId":"3259","StartDate":"2016-06-18
+        22:00:00","EndDate":"2016-06-19 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"MN20","Name":"Colorado","Type":"National
+        Monument","Comments":"Will be doing SSB and CW.  Times are approximately when
+        I will be there and possibly on air.  Limited internet access, please spot.","URL":"http:\/\/www.nps.gov\/colm\/index.htm"},{"RegisteredActivationId":"3370","StartDate":"2016-06-18
+        23:00:00","EndDate":"2016-06-18 23:59:00","ActivationCallSign":"WD8RIF","ARRLCode":"HP11","Name":"Dayton
+        Aviation Heritage","Type":"National Historical Park","Comments":"HP11+TR04
+        two-fer; time approximate due to travel; 7.031 (+\/-) & maybe 14.061 (+\/-);
+        see <a href=http:\/\/qrz.com\/db\/wd8rif>http:\/\/qrz.com\/db\/wd8rif<\/a>
+        for details\/updates","URL":"http:\/\/www.nps.gov\/daav\/index.htm"},{"RegisteredActivationId":"3364","StartDate":"2016-06-19
+        15:00:00","EndDate":"2016-06-19 23:00:00","ActivationCallSign":"NF7E","ARRLCode":"MN71","Name":"Tuzigoot","Type":"National
+        Monument","Comments":"","URL":"http:\/\/www.nps.gov\/tuzi\/index.htm"},{"RegisteredActivationId":"3336","StartDate":"2016-06-19
+        15:00:00","EndDate":"2016-06-19 17:00:00","ActivationCallSign":"WA9STI","ARRLCode":"MN42","Name":"Grand
+        Portage","Type":"National Monument","Comments":"Operating 14.260 Mhz +, 14.054
+        +, 7.230 +, and 7.054 +. Will be on APRS (aprs.fi) as WA9STI-9 and WA9STI-7.
+        Please spot if heard. Afterward will travel to nearby Mount Maud to operate
+        SOTA (K0M\/NE-020) although it is not in boundary of monument.","URL":"http:\/\/www.nps.gov\/grpo\/index.htm"},{"RegisteredActivationId":"3271","StartDate":"2016-06-19
+        15:30:00","EndDate":"2016-06-19 17:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"DZ08","Name":"Prince
+        William Forest Park","Type":"Other","Comments":"7044-cw, 7190-ssb, 14044-cw,
+        14285-ssb. As time permits: 10116-cw, 18092-cw. All freqs +\/- QRM. PSE INCLUDE
+        UR STATE WITH SIG REPORT EXCHANGE. All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/prwi\/index.htm"},{"RegisteredActivationId":"3230","StartDate":"2016-06-19
+        16:00:00","EndDate":"2016-06-19 23:00:00","ActivationCallSign":"KD7RCJ + NF7E","ARRLCode":"MN71","Name":"Tuzigoot","Type":"National
+        Monument","Comments":"Bob Wertz NF7E and I Jack Lunsford KD7RCJ will be at
+        Tonto on 6-16&17, Motezumz Castle 6-18 and Tuzigoot 6-19.  Others will join
+        us on 6-18&19.  Please spot us.","URL":"http:\/\/www.nps.gov\/tuzi\/index.htm"},{"RegisteredActivationId":"3272","StartDate":"2016-06-19
+        18:30:00","EndDate":"2016-06-19 20:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"BP02","Name":"Manassas","Type":"National
+        Battlefield Park","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time
+        permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH
+        SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/mana\/index.htm"},{"RegisteredActivationId":"3298","StartDate":"2016-06-19
+        20:00:00","EndDate":"2016-06-20 18:00:00","ActivationCallSign":"WA8YNE","ARRLCode":"AA07","Name":"Father
+        Marquette National Memorial","Type":"Affiliated Area","Comments":"Probably
+        (TR04) also (twofer)  5 watts.  20 m (possibly 40) SSB.  Please spot; no internet.  St.
+        Ignace, MI.  Expect to operate 2-4 hours while there (split between Sun. afternoon
+        and Monday morning)","URL":"http:\/\/www.nps.gov\/nr\/travel\/cultural_diversity\/Father_Marquette_National_Memorial.html"},{"RegisteredActivationId":"3260","StartDate":"2016-06-19
+        22:00:00","EndDate":"2016-06-20 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"MN24","Name":"Dinosaur","Type":"National
+        Monument","Comments":"Will be doing SSB and CW.  Times are approximately when
+        I will be there and possibly on air.  Limited internet access, please spot.","URL":"http:\/\/www.nps.gov\/dino\/index.htm"},{"RegisteredActivationId":"3222","StartDate":"2016-06-20
+        00:00:00","EndDate":"2016-06-20 00:00:00","ActivationCallSign":"KC2GOW","ARRLCode":"RC08","Name":"Gateway","Type":"National
+        Recreation Area","Comments":"Great Kills Park - Staten Island","URL":"http:\/\/www.nps.gov\/gate\/index.htm"},{"RegisteredActivationId":"3273","StartDate":"2016-06-20
+        13:30:00","EndDate":"2016-06-20 14:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"BF06","Name":"Monocacy","Type":"National
+        Battlefield","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time permits:
+        10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH SIG REPORT
+        EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/mono\/index.htm"},{"RegisteredActivationId":"3274","StartDate":"2016-06-20
+        16:30:00","EndDate":"2016-06-20 17:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"BF01","Name":"Antietam","Type":"National
+        Battlefield","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time permits:
+        10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH SIG REPORT
+        EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/anti\/index.htm"},{"RegisteredActivationId":"3337","StartDate":"2016-06-20
+        17:00:00","EndDate":"2016-06-20 21:00:00","ActivationCallSign":"WA9STI","ARRLCode":"WR09","Name":"Saint
+        Croix National Scenic Riverway","Type":"National Wild and Scenic River","Comments":"Driving
+        down from North Shore of Lake Superior to MSP and will stop at river along
+        the way. Will operate 14.260 Mhz + and 7.230 Mhz +.  Follow on APRS (aprs.fi)as
+        WA9STI-9 and WA9STI-7.","URL":"http:\/\/www.nps.gov\/sacn\/index.htm"},{"RegisteredActivationId":"3374","StartDate":"2016-06-20
+        17:00:00","EndDate":"2016-06-20 21:00:00","ActivationCallSign":"N4YDU","ARRLCode":"SS04","Name":"Cape
+        Hatteras","Type":"National Seashore","Comments":"Times are approximate - more
+        than likely running 10 watts to a vertical antenna and using battery power.
+        Operating will be primarily on 20 and 40 both SSB and CW.","URL":"http:\/\/www.nps.gov\/caha\/index.htm"},{"RegisteredActivationId":"3275","StartDate":"2016-06-20
+        19:00:00","EndDate":"2016-06-20 20:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"HP14","Name":"Harpers
+        Ferry","Type":"National Historical Park","Comments":"7044-cw, 7190-ssb, 14044-cw,
+        14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE
+        UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/hafe\/index.htm"},{"RegisteredActivationId":"3207","StartDate":"2016-06-20
+        20:00:00","EndDate":"2016-07-03 12:00:00","ActivationCallSign":"N0ZB","ARRLCode":"NP21","Name":"Glacier
+        National Park","Type":"National Park","Comments":"From both the west and east
+        side - casual operating","URL":"http:\/\/www.nps.gov\/glac\/index.htm"},{"RegisteredActivationId":"3276","StartDate":"2016-06-20
+        21:00:00","EndDate":"2016-06-20 22:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"HP08","Name":"Chesapeake
+        and Ohio Canal","Type":"National Historical Park","Comments":"7044-cw, 7190-ssb,
+        14044-cw, 14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs +\/-QRM.
+        PSE INCLUDE UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries will be as
+        N4EX\/P.","URL":"http:\/\/www.nps.gov\/choh\/index.htm"},{"RegisteredActivationId":"3338","StartDate":"2016-06-20
+        22:00:00","EndDate":"2016-06-21 01:00:00","ActivationCallSign":"WA9STI","ARRLCode":"RV04","Name":"Mississippi
+        National River and Recreation Areas","Type":"National River","Comments":"Driving
+        down from North Shore of Lake Superior to MSP and will stop at river along
+        the way. Will operate 14.260 Mhz + and 7.230 Mhz +.  Follow on APRS (aprs.fi)
+        as WA9STI-9 and WA9STI-7.","URL":"http:\/\/www.nps.gov\/miss\/index.htm"},{"RegisteredActivationId":"3261","StartDate":"2016-06-20
+        23:00:00","EndDate":"2016-06-21 14:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"NP23","Name":"Grand
+        Teton","Type":"National Park","Comments":"Will be doing SSB and CW.  Times
+        are approximately when I will be there and possibly on air.  Limited internet
+        access, please spot.","URL":"http:\/\/www.nps.gov\/grte\/index.htm"},{"RegisteredActivationId":"3277","StartDate":"2016-06-21
+        13:30:00","EndDate":"2016-06-21 14:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"DZ01","Name":"Catoctin
+        Mountain Park","Type":"Other","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb.
+        As time permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE
+        WITH SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/cato\/index.htm"},{"RegisteredActivationId":"3323","StartDate":"2016-06-21
+        14:00:00","EndDate":"2016-06-21 19:00:00","ActivationCallSign":"N8BC","ARRLCode":"NS39","Name":"James
+        A. Garfield","Type":"National Historic Site","Comments":"40M & 20M SSB by
+        the Lake County Amateur Radio Assn. See our QRZ.com page for info and pics.","URL":"http:\/\/www.nps.gov\/jaga\/index.htm"},{"RegisteredActivationId":"3278","StartDate":"2016-06-21
+        16:00:00","EndDate":"2016-06-21 17:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"NS13","Name":"Eisenhower","Type":"National
+        Historic Site","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time
+        permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH
+        SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/eise\/index.htm"},{"RegisteredActivationId":"3299","StartDate":"2016-06-21
+        16:00:00","EndDate":"2016-06-22 19:00:00","ActivationCallSign":"WA8YNE","ARRLCode":"LK04","Name":"Sleeping
+        Bear Dunes","Type":"National Lakeshore","Comments":"Possibly SOTA W8M\/LP-022
+        or W8M\/LP-019  (depends on my energy level)   5 watts.  20 m (possibly 40)
+        SSB.  Please spot; no internet.  near Empire, MI.  Most likely operation (not
+        SOTA) 2000 6\/21 - 0200 6\/22 (UTC). ","URL":"http:\/\/www.nps.gov\/slbe\/index.htm"},{"RegisteredActivationId":"3262","StartDate":"2016-06-21
+        17:00:00","EndDate":"2016-06-21 19:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"PK03","Name":"John
+        D. Rockefeller, Jr. Memorial Parkway","Type":"National Parkway","Comments":"Will
+        be doing SSB and CW.  Times are approximately when I will be there and possibly
+        on air.  Limited internet access, please spot.","URL":"http:\/\/www.nps.gov\/grte\/jodr.htm"},{"RegisteredActivationId":"3279","StartDate":"2016-06-21
+        18:30:00","EndDate":"2016-06-21 19:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"MP03","Name":"Gettysburg","Type":"National
+        Military Park","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time
+        permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH
+        SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/gett\/index.htm"},{"RegisteredActivationId":"3263","StartDate":"2016-06-21
+        21:00:00","EndDate":"2016-06-22 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"NP57","Name":"Yellowstone","Type":"National
+        Park","Comments":"Will be doing SSB and CW.  Times are approximately when
+        I will be there and possibly on air.  Limited internet access, please spot.","URL":"http:\/\/www.nps.gov\/yell\/index.htm"},{"RegisteredActivationId":"3280","StartDate":"2016-06-22
+        13:30:00","EndDate":"2016-06-22 14:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"NS67","Name":"Steamtown","Type":"National
+        Historic Site","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time
+        permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH
+        SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/stea\/index.htm"},{"RegisteredActivationId":"2521","StartDate":"2016-06-22
+        17:00:00","EndDate":"2016-06-22 23:59:00","ActivationCallSign":"WB6VYH","ARRLCode":"NM31","Name":"Tule
+        Lake Unit Internment Camp ","Type":"National Monument","Comments":"We may
+        start early and go later if there is traffic...\r\nModes will be JT65HF, RTTY,
+        PSK31, CW and SSB if we have time. . \r\nI can also be able to do some DXCC,
+        WAS, VUCC applications during this time. You must contact me before hand.
+        I''m good in the book...  ","URL":"http:\/\/www.nps.gov\/tule\/index.htm"},{"RegisteredActivationId":"3281","StartDate":"2016-06-22
+        18:30:00","EndDate":"2016-06-22 19:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"MN34","Name":"Fort
+        Stanwix","Type":"National Monument","Comments":"7044-cw, 7190-ssb, 14044-cw,
+        14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE
+        UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/fost\/index.htm"},{"RegisteredActivationId":"2101","StartDate":"2016-06-22
+        19:00:00","EndDate":"2016-06-24 02:00:00","ActivationCallSign":"W7QDM","ARRLCode":"BF02","Name":"Big
+        Hole","Type":"National Battlefield","Comments":"I have permission to stay
+        on site overnight.  I''ll spend days on 20m\/17m (SSB if productive) and evenings
+        on 40m\/30m CW.  This will be a \"three-fer\" with HP32 and TR09 as well.  I''ll
+        target 18.084, 18.114, 14.244, 14.044, 10.124 and 7.044 QRM permitting.  Please
+        spot me.","URL":"http:\/\/www.nps.gov\/biho\/index.htm"},{"RegisteredActivationId":"3264","StartDate":"2016-06-22
+        21:00:00","EndDate":"2016-06-23 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"MN21","Name":"Craters
+        Of The Moon National Monument","Type":"National Monument","Comments":"Will
+        be doing SSB and CW.  Times are approximately when I will be there and possibly
+        on air.  Limited internet access, please spot.  Could also be on air with
+        KA1DS club in evening and later at night.","URL":"http:\/\/www.nps.gov\/crmo\/index.htm"},{"RegisteredActivationId":"3265","StartDate":"2016-06-22
+        21:00:00","EndDate":"2016-06-23 13:00:00","ActivationCallSign":"N3BBQ","ARRLCode":"PV05","Name":"Craters
+        Of The Moon National Preserve","Type":"National Preserve","Comments":"Will
+        be doing SSB and CW.  Times are approximately when I will be there and possibly
+        on air.  Limited internet access, please spot.  Could also be on air with
+        KA1DS club in evening and later at night.","URL":"http:\/\/www.nps.gov\/crmo\/index.htm"},{"RegisteredActivationId":"3282","StartDate":"2016-06-23
+        14:00:00","EndDate":"2016-06-23 15:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"AA23","Name":"Thomas
+        Cole National Historic Site","Type":"Affiliated Area","Comments":"7044-cw,
+        7190-ssb, 14044-cw, 14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs
+        +\/-QRM. PSE INCLUDE UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries
+        will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/thco\/index.htm"},{"RegisteredActivationId":"2856","StartDate":"2016-06-23
+        14:00:00","EndDate":"2016-06-23 18:00:00","ActivationCallSign":"W9MAP","ARRLCode":"HP01","Name":"Abraham
+        Lincoln Birthplace","Type":"National Historical Park","Comments":"Portable\/mobile
+        operation. 9 a.m. to 11 a.m. on 20\/40 with N9OQT on Voice - please spot,
+        no Internet; and 11 a.m. to 1:00 p.m. Eastern Time ** PSK31 ** with W9MAP.","URL":"http:\/\/www.nps.gov\/abli\/index.htm"},{"RegisteredActivationId":"3283","StartDate":"2016-06-23
+        16:00:00","EndDate":"2016-06-23 17:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"NS50","Name":"Martin
+        Van Buren","Type":"National Historic Site","Comments":"7044-cw, 7190-ssb,
+        14044-cw, 14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs +\/-QRM.
+        PSE INCLUDE UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries will be as
+        N4EX\/P.","URL":"http:\/\/www.nps.gov\/mava\/index.htm"},{"RegisteredActivationId":"2943","StartDate":"2016-06-23
+        16:00:00","EndDate":"2016-06-27 23:00:00","ActivationCallSign":"WA0LJM","ARRLCode":"AA12","Name":"International
+        Peace Garden","Type":"Affiliated Area","Comments":"Will be on the air for
+        3 days - June 24, 25 and 26.  Will be working field day during the weekend
+        field day hours.  Also should have some activity during the days of June 23
+        and June 27 but I don''t know times.  Plan to work into the night and will
+        be trying multiple bands.  Full 100w SSB.","URL":"http:\/\/www.peacegarden.com\/"},{"RegisteredActivationId":"678","StartDate":"2016-06-23
+        16:00:00","EndDate":"2016-06-27 01:00:00","ActivationCallSign":"KV4T\/KS4YT\/KI4GGJ","ARRLCode":"NP26","Name":"Great
+        Smoky Mountains","Type":"National Park","Comments":"2 stations for a couple
+        of days from Deep Creek campground (North Carolina)including ARRL field day
+        operation. Look for us on 20\/30\/40\/80 meters between hikes and sight-seeing
+        trips.","URL":"http:\/\/www.nps.gov\/grsm\/index.htm"},{"RegisteredActivationId":"2522","StartDate":"2016-06-23
+        17:00:00","EndDate":"2016-06-23 23:59:00","ActivationCallSign":"WB6VYH","ARRLCode":"MN50","Name":"Lava
+        Beds","Type":"National Monument","Comments":"We may start early and stay later
+        if there is traffic. \r\n\r\nModes will be JT65HF, RTTY, PSK31, CW and SSB.
+        \r\n\r\nI will also be able to do some DXCC, WAS, VUCC applications during
+        this time. You must contact me before hand. \r\n\r\nI''m good in the book...   ","URL":"http:\/\/www.nps.gov\/labe\/index.htm"},{"RegisteredActivationId":"3284","StartDate":"2016-06-23
+        18:30:00","EndDate":"2016-06-23 19:30:00","ActivationCallSign":"N4EX\/P","ARRLCode":"AA15","Name":"Kate
+        Mullany National Historic Site","Type":"Affiliated Area","Comments":"7044-cw,
+        7190-ssb, 14044-cw, 14285-ssb. As time permits: 10116-cw, 18092-cw.  All freqs
+        +\/-QRM. PSE INCLUDE UR STATE WITH SIG REPORT EXCHANGE.  All LOTW entries
+        will be as N4EX\/P.","URL":"http:\/\/www.katemullanynhs.org\/"},{"RegisteredActivationId":"3285","StartDate":"2016-06-23
+        21:00:00","EndDate":"2016-06-23 22:00:00","ActivationCallSign":"N4EX\/P","ARRLCode":"HP42","Name":"Saratoga","Type":"National
+        Historical Park","Comments":"7044-cw, 7190-ssb, 14044-cw, 14285-ssb. As time
+        permits: 10116-cw, 18092-cw.  All freqs +\/-QRM. PSE INCLUDE UR STATE WITH
+        SIG REPORT EXCHANGE.  All LOTW entries will be as N4EX\/P.","URL":"http:\/\/www.nps.gov\/sara\/index.htm"},{"RegisteredActivationId":"3332","StartDate":"2016-06-24
+        16:00:00","EndDate":"2016-06-25 18:00:00","ActivationCallSign":"K2JB","ARRLCode":"NP26","Name":"Great
+        Smoky Mountains","Type":"National Park","Comments":"Operating from Backcounty
+        Site #87. Please spot me if you work me.","URL":"http:\/\/www.nps.gov\/grsm\/index.htm"},{"RegisteredActivationId":"2402","StartDate":"2016-06-24
+        19:00:00","EndDate":"2016-06-24 23:00:00","ActivationCallSign":"W7QDM","ARRLCode":"MN21","Name":"Craters
+        Of The Moon National Monument","Type":"National Monument","Comments":"Times
+        are UTC.  20m\/17m SSB if productive; otherwise CW.  This is a \"two-fer\"
+        and would include PV05.  I''ll target 18.084, 18.114, 14.244, 14.044 QRM permitting.  Please
+        spot.","URL":"http:\/\/www.nps.gov\/crmo\/index.htm"},{"RegisteredActivationId":"3327","StartDate":"2016-06-25
+        00:00:00","EndDate":"2016-06-25 00:00:00","ActivationCallSign":"W0KEV","ARRLCode":"TR11,NS04","Name":"Santa
+        Fe NHT + Bent''s Old Fort NHS","Type":"Other","Comments":"Field Day operations","URL":"http:\/\/www.arrl.org\/npota"},{"RegisteredActivationId":"3328","StartDate":"2016-06-25
+        00:00:00","EndDate":"2016-06-26 00:00:00","ActivationCallSign":"W0KEV","ARRLCode":"TR11","Name":"Santa
+        Fe National Historic Trail","Type":"National Historic Trail","Comments":"Field
+        Day operations","URL":"http:\/\/www.nps.gov\/safe\/index.htm"},{"RegisteredActivationId":"1358","StartDate":"2016-06-25
+        00:00:00","EndDate":"2016-06-26 00:00:00","ActivationCallSign":"K4VD","ARRLCode":"NP51","Name":"Shenandoah","Type":"National
+        Park","Comments":"Participating in FD.","URL":"http:\/\/www.nps.gov\/shen\/index.htm"},{"RegisteredActivationId":"3213","StartDate":"2016-06-25
+        12:00:00","EndDate":"2016-06-25 20:00:00","ActivationCallSign":"W4M","ARRLCode":"PK01","Name":"Blue
+        Ridge Parkway","Type":"National Parkway","Comments":"Activating the Museum
+        of NC Minerals at Gillespie gap, Mitchell county, MP 331.","URL":"http:\/\/www.nps.gov\/blri\/index.htm"},{"RegisteredActivationId":"3317","StartDate":"2016-06-25
+        12:00:00","EndDate":"2016-06-26 16:00:00","ActivationCallSign":"AF4RK","ARRLCode":"NP05","Name":"Biscayne","Type":"National
+        Park","Comments":"We will be returning to Elliot Key (Biscayne National Park,
+        NP05) for Field Day, June 25 & 26. Operations on 40,20,15,10 CW & SSB, propagation
+        permitting.  Please use the Field Day Contest Exchange.","URL":"http:\/\/www.nps.gov\/bisc\/index.htm"},{"RegisteredActivationId":"2665","StartDate":"2016-06-25
+        13:00:00","EndDate":"2016-06-26 22:00:00","ActivationCallSign":"KJ4EX","ARRLCode":"NP26","Name":"Great
+        Smoky Mountains","Type":"National Park","Comments":"40 through 6 meters capable,
+        VHF\/UHF multimode, SAT attempt for fun.","URL":"http:\/\/www.nps.gov\/grsm\/index.htm"},{"RegisteredActivationId":"1202","StartDate":"2016-06-25
+        13:00:00","EndDate":"2016-06-26 13:00:00","ActivationCallSign":"AF5Q","ARRLCode":"RC05","Name":"Chickasaw","Type":"National
+        Recreation Area","Comments":"100 watt radio with either a OCF dipole or a
+        vertical next to Buckhorn Lake.","URL":"http:\/\/www.nps.gov\/chic\/index.htm"},{"RegisteredActivationId":"3307","StartDate":"2016-06-25
+        14:00:00","EndDate":"2016-06-25 20:30:00","ActivationCallSign":"N1CC","ARRLCode":"TR20","Name":"El
+        Camino Real de los Tejas National Historic Trail","Type":"National Historic
+        Trail","Comments":"Caddo Mounds Texas State Historical Park segment of El
+        Camino Real de los Tejas NHT at the State Park with N1CC and W7FKF activation
+        on 40, 30, 20, and 17M. Will carry over to FD at 1800 UTC. ","URL":"http:\/\/home.nps.gov\/elte\/index.htm"},{"RegisteredActivationId":"1070","StartDate":"2016-06-25
+        15:00:00","EndDate":"2016-06-26 17:00:00","ActivationCallSign":"NC4MI","ARRLCode":"PK01","Name":"Blue
+        Ridge Parkway","Type":"National Parkway","Comments":"We are planning to Activate
+        PK01 during Field Day. We already have permission for the Campground Manager
+        to set and operate during Field Day. ","URL":"http:\/\/www.nps.gov\/blri\/index.htm"},{"RegisteredActivationId":"1116","StartDate":"2016-06-25
+        17:00:00","EndDate":"2016-06-26 01:00:00","ActivationCallSign":"K5SMH","ARRLCode":"NP27","Name":"Guadalupe
+        Mountains","Type":"National Park","Comments":"Will be operating from Dog Canyon
+        at 6290ft on 20m Phone.  This will, of course, correspond with Field Day 2016.","URL":"http:\/\/www.nps.gov\/gumo\/index.htm"},{"RegisteredActivationId":"2261","StartDate":"2016-06-25
+        18:00:00","EndDate":"2016-06-26 18:00:00","ActivationCallSign":"W7B","ARRLCode":"HP50","Name":"Manhattan
+        Project","Type":"National Historical Park","Comments":"Will operate from Hanford
+        B Reactor from 1800-2400 6\/25, then move to Visitor Center for remaining
+        Operational Period.   Activity has been approved by NPS Regional Manager andUS
+        Dept of Energy Site Manager.   Operation restricted to pre-registered\/cleared
+        personnel only","URL":"http:\/\/www.nps.gov\/mapr\/index.htm"},{"RegisteredActivationId":"3333","StartDate":"2016-06-25
+        18:00:00","EndDate":"2016-06-26 18:00:00","ActivationCallSign":"W4PH","ARRLCode":"NP26","Name":"Great
+        Smoky Mountains","Type":"National Park","Comments":"Operating from Backcountry
+        Site #87 During Field Day. Please spot us if you work us.","URL":"http:\/\/www.nps.gov\/grsm\/index.htm"},{"RegisteredActivationId":"3224","StartDate":"2016-06-25
+        18:00:00","EndDate":"2016-06-26 18:00:00","ActivationCallSign":"W4GSO","ARRLCode":"MP04","Name":"Guilford
+        Courthouse","Type":"National Military Park","Comments":"","URL":"http:\/\/www.nps.gov\/guco\/index.htm"},{"RegisteredActivationId":"3353","StartDate":"2016-06-25
+        18:00:00","EndDate":"2016-06-26 18:00:00","ActivationCallSign":"W7PRA","ARRLCode":"TR14","Name":"California
+        National Historic Trail","Type":"National Historic Trail","Comments":"Peak
+        Radio Association (W7PRA), in conjunction with Field Day, will be operating
+        from the Applegate Trail, a part of the California National Historic Trail
+        in Corvallis, OR.  We will be working all authorized Field Day HF bands.","URL":"http:\/\/www.nps.gov\/cali\/index.htm"},{"RegisteredActivationId":"3350","StartDate":"2016-06-25
+        18:00:00","EndDate":"2016-06-26 18:00:00","ActivationCallSign":"N4CV","ARRLCode":"HP08","Name":"Chesapeake
+        and Ohio Canal","Type":"National Historical Park","Comments":"Field Day Operation.","URL":"http:\/\/www.nps.gov\/choh\/index.htm"},{"RegisteredActivationId":"3215","StartDate":"2016-06-25
+        18:30:00","EndDate":"2016-06-26 09:00:00","ActivationCallSign":"KH7AX","ARRLCode":"HP19","Name":"Kaloko-Honokohau","Type":"National
+        Historical Park","Comments":"TR-18 Ala Kahakai National Historic Trail Co-credit.\r\n  Check
+        Facebook on activation day for spot info.","URL":"http:\/\/www.nps.gov\/kaho\/index.htm"},{"RegisteredActivationId":"2864","StartDate":"2016-06-25
+        21:00:00","EndDate":"2016-07-02 02:00:00","ActivationCallSign":"NK8Q","ARRLCode":"NP31","Name":"Isle
+        Royale","Type":"National Park","Comments":"65 Mile hike with daily ops from
+        campsites in the evenings and mornings local time (CST) just prior to breaking
+        camp.  I will also be active from SOTA summits mid-day on 6\/26 - 6\/28 &
+        6\/30.  Mostly on CW (7.033 & 14.063), may do some SSB (7.233 and 14.263).  10.113
+        during FD weekend.  Subject to WX!","URL":"http:\/\/www.nps.gov\/isro\/index.htm"}]'
+    http_version: 
+  recorded_at: Thu, 16 Jun 2016 21:48:59 GMT
+recorded_with: VCR 2.9.3

@@ -1,15 +1,6 @@
 require './lib/n0nbh'
 require 'vcr'
 
-RSpec.configure do |c|
-  c.extend VCR::RSpec::Macros
-end
-
-VCR.configure do |config|
-  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
-  config.hook_into :webmock # or :fakeweb
-end
-
 RSpec.describe N0nbh do
   use_vcr_cassette "solar_conditions", :allow_playback_repeats => true
   

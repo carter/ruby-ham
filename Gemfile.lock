@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    n0nbh (0.0.0)
+    ruby-ham (0.0.0)
       nokogiri
 
 GEM
@@ -12,7 +12,7 @@ GEM
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
-    ffi (1.9.10)
+    ffi (1.9.9)
     formatador (0.2.5)
     guard (2.13.0)
       formatador (>= 0.2.4)
@@ -79,11 +79,11 @@ PLATFORMS
 DEPENDENCIES
   guard-bundler
   guard-rspec
-  n0nbh!
   nokogiri
   rspec
+  ruby-ham!
   vcr
   webmock
 
 BUNDLED WITH
-   1.10.6
+   1.12.5
